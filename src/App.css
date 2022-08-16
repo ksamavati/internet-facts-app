@@ -1,0 +1,14 @@
+.App {
+	text-align: center;
+}
+
+.card {
+	width: 18rem;
+}
+
+.card p {
+	-webkit-line-clamp: 3;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
