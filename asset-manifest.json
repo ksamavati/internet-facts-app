@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/internet-facts-app/static/css/main.d6997719.css",
-    "main.js": "/internet-facts-app/static/js/main.ea2b3fad.js",
+    "main.js": "/internet-facts-app/static/js/main.c05185a6.js",
     "index.html": "/internet-facts-app/index.html",
     "main.d6997719.css.map": "/internet-facts-app/static/css/main.d6997719.css.map",
-    "main.ea2b3fad.js.map": "/internet-facts-app/static/js/main.ea2b3fad.js.map"
+    "main.c05185a6.js.map": "/internet-facts-app/static/js/main.c05185a6.js.map"
   },
   "entrypoints": [
     "static/css/main.d6997719.css",
-    "static/js/main.ea2b3fad.js"
+    "static/js/main.c05185a6.js"
   ]
 }
