@@ -13,6 +13,7 @@ export default function App() {
 			<main className="container d-flex justify-content-center py-3">
 				<Routes>
 					<Route exact path="/" element={<Home />} />
+					<Route exact path="/internet-facts-app/" element={<Home />} />
 					<Route path="/Fact:fact_id" element={<Fact />} />
 				</Routes>
 			</main>
