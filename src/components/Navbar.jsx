@@ -6,8 +6,8 @@ export const Navbar = () => {
 	const factsArray = factList();
 	const factsNavJSX = factsArray.map(fact => {
 		return (
-			<li className="nav-item px-2">
-				<Link className="nav-link" to={"./Fact" + fact.id}>{fact.id}</Link>
+			<li className="nav-item px-2 pt-1" key={fact.id}>
+				<Link className="nav-link" to={"./Fact" + fact.id} style={{ fontSize: '15pt', paddingTop: '0', paddingBottom: '0' }}>{fact.id}</Link>
 			</li>
 		)
 	});
@@ -24,7 +24,6 @@ export const Navbar = () => {
 						<li className="nav-item">
 							<Link className="nav-link active" aria-current="page" to="./">Home</Link>
 						</li>
-
 						{factsNavJSX}
 					</ul>
 				</div>
