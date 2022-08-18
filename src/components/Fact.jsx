@@ -7,11 +7,10 @@ export const Fact = (props) => {
 	const thisFact = factList()[fact_id - 1];
 
 	return (
-		<div>
-			<div className="card-body">
-				<h5 className="card-title">{thisFact.title}</h5>
-				<p className="card-text">{thisFact.body}</p>
-			</div>
+		<div style={{ maxWidth: "900px" }}>
+			<h2 className='py-4'>{thisFact.title}</h2>
+			<p className='py-3'>{thisFact.body}</p>
+			<Link className="btn btn-secondary" to={"/"}>Back</Link>
 		</div>
 	)
 }
