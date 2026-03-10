@@ -4,7 +4,7 @@ A React application I built as an exercise in [Kable Academy's](https://kableaca
 
 ## About the Exercise
 
-The purpose of this exercise was to practice building a multi-page single-page application (SPA) using **React**, **React Router**, and an introduction to **Redux** for state management. Key concepts covered include:
+The purpose of this exercise was to practice building a single-page application (SPA) with multiple dynamically-generated views using **React**, **React Router**, and an introduction to **Redux** for state management. Key concepts covered include:
 
 - Creating and composing React functional components
 - Setting up client-side routing with React Router (v6) to navigate between a list view and individual detail pages
